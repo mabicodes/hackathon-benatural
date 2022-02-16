@@ -1,6 +1,10 @@
 # hackathon-benatural
-A marketplace mock-up page for FactoriaF5 and Adevinta 
---------------------------
+> A marketplace mock-up page for FactoriaF5 and AdevintaSpain 
+- - - -
+## STACK USED : 
+- React 
+
+- - - -
 
 ### UX Design : 
 - Carolina Loaiza (SIMPLON - Colombia)
