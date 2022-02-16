@@ -8,6 +8,7 @@
     - `npm install`
     - `npm i react-router-dom@6.2.1`
     - `npm i aos --save`
+    - `npm i react-scroll`
     - then `npm start`
 - (Springboot) Java11 LTS :
    VSCode Extensions installed :   
