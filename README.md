@@ -3,6 +3,8 @@
 - - - -
 ## STACK USED : 
 - React 
+    - `npm install`
+    - `npm react-router-dom@6.2.1`
 - (Springboot) Java11 LTS
 - - - -
 ### UX Design : 
