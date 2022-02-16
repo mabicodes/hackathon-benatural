@@ -1,11 +1,14 @@
 # HACKATHON 2022 - GROUP 12
  _A marketplace mock-up page for FactoriaF5 and AdevintaSpain_ 
 - - - -
-## STACK USED : 
-- React 
- open the terminal and write `-cd client` to open de front-end folder and type  :   
+## INSTRUCTIONS : 
+-  React : 
+ You'll need _"Node.js"_ to run this project in your computer. 
+ 1. open the terminal and write `-cd client` to open de front-end folder and install these dependencies  :   
     - `npm install`
-    - `npm react-router-dom@6.2.1`
+    - `npm i react-router-dom@6.2.1`
+    - `npm i aos --save`
+    - then `npm start`
 - (Springboot) Java11 LTS :
    VSCode Extensions installed :   
     - 1. Extension Pack for Java by Microsoft
