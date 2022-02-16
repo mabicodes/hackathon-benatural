@@ -1,5 +1,5 @@
 # HACKATHON 2022 - GROUP 12
-> A marketplace mock-up page for FactoriaF5 and AdevintaSpain 
+ _A marketplace mock-up page for FactoriaF5 and AdevintaSpain_ 
 - - - -
 ## STACK USED : 
 - React 
