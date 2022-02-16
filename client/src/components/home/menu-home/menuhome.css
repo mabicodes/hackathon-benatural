@@ -1,0 +1,36 @@
+.menuHome {
+  align-items: center;
+  border-radius: 16px;
+  border: 5px solid var(--colorBorderMenuNav);
+  box-sizing: border-box;
+  color: var(--colorTextMenu);
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  width: 90vw;
+}
+.menuHome ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  width: 80vw;
+}
+.menuHome ul button {
+  background-color: var(--colorButtonMenu);
+  border-radius: 14px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  margin: 5px;
+  min-width: 60px;
+  padding: 10px;
+}
+.menuHome ul button.all {
+  background-color: var(--colorButtonMenuAll);
+}
+@media (max-width: 480px) {
+  .menuHome {
+    flex-direction: column;
+  }
+}
