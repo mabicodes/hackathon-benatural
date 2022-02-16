@@ -3,9 +3,8 @@
 - - - -
 ## STACK USED : 
 - React 
-
+- (Springboot) Java11 LTS
 - - - -
-
 ### UX Design : 
 - Carolina Loaiza (SIMPLON - Colombia)
 - Doraly Santander (SIMPLON - Colombia)
