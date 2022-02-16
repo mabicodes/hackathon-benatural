@@ -3,8 +3,7 @@
 - - - -
 ## STACK USED : 
 - React 
- open the terminal and write `cd client` to open de front-end folder and type  :  
-    - `cd client` 
+ open the terminal and write `-cd client` to open de front-end folder and type  :   
     - `npm install`
     - `npm react-router-dom@6.2.1`
 - (Springboot) Java11 LTS
