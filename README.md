@@ -6,6 +6,7 @@
  open the terminal and write `-cd client` to open de front-end folder and type  :   
     - `npm install`
     - `npm react-router-dom@6.2.1`
+    - `npm i aos --save`
 - (Springboot) Java11 LTS :
    VSCode Extensions installed :   
     - 1. Extension Pack for Java by Microsoft
