@@ -1,4 +1,4 @@
-# hackathon-benatural
+# HACKATHON 2022 - GROUP 12
 > A marketplace mock-up page for FactoriaF5 and AdevintaSpain 
 - - - -
 ## STACK USED : 
