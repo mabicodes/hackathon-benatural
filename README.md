@@ -7,8 +7,7 @@
     - `npm install`
     - `npm react-router-dom@6.2.1`
 - (Springboot) Java11 LTS :
-   VSCode Extensions installed :  
-    - VSCode Extensions installed : 
+   VSCode Extensions installed :   
     - 1. Extension Pack for Java by Microsoft
     - 2.  Spring Boot Extension Pack by Pivotal
  
