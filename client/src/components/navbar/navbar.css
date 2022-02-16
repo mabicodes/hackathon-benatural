@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "segoesc";
+  font-style: normal;
+  font-weight: none;
+  src: url("../../assets/fonts/segoesc.ttf") format("truetype");
+}
+@font-face {
+  font-family: "nirmala";
+  font-style: normal;
+  font-weight: none;
+  src: url("../../assets/fonts/Nirmala.ttf") format("truetype");
+}
+header {
+  align-items: center;
+  background-color: var(--colorBackground);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.banner {
+  text-align: center;
+}
+.banner .logoCompany {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.banner .logoCompany img {
+  width: 30px;
+}
+.banner h1 {
+  color: var(--colorTextBlack);
+  font-family: "segoesc";
+}
+.banner h3 {
+  color: var(--colorTextBlack);
+  font-family: "nirmala";
+}

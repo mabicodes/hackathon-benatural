@@ -1,0 +1,58 @@
+footer {
+  background-color: var(--colorFooter);
+  color: var(--colorTextWhite);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+footer .footerLogos {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: max(10px, 2vh);
+  width: 100%;
+}
+footer .footerLogos .footerLogoAdevinta {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  width: 50%;
+}
+footer .footerLogos .footerLogoAdevinta img {
+  width: 200px;
+}
+footer .footerLogos .footerSocialMedia {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+}
+footer .footerLogos .footerSocialMedia a {
+  color: var(--colorTextWhite);
+  display: flex;
+}
+footer .footerLogos .footerSocialMedia a img {
+  width: 40px;
+}
+footer .footerComplement {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: max(10px, 2vh);
+  width: 100vw;
+}
+footer .footerInfoLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+}
+footer .footerInfoLinks a {
+  color: var(--colorTextWhite);
+  text-decoration: none;
+}
+footer .footerInfo {
+  display: flex;
+  justify-content: center;
+  padding: max(10px, 2vh);
+  width: 100vw;
+}
