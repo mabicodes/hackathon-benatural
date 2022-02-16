@@ -3,6 +3,8 @@
     --colorTextWhite:#fff;
     --colorBackground:#FAF6F6;
     --colorTextBlack:#000;
+    --colorNavbar: #c4c4c45a;
+    --colorLogin: #97D711;
 }
 
 *, body{

@@ -10,6 +10,9 @@
   font-weight: none;
   src: url("../../assets/fonts/Nirmala.ttf") format("truetype");
 }
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 header {
   align-items: center;
   background-color: var(--colorBackground);
@@ -32,8 +35,53 @@ header {
 .banner h1 {
   color: var(--colorTextBlack);
   font-family: "segoesc";
+  margin: 0;
+  padding: 0;
 }
 .banner h3 {
   color: var(--colorTextBlack);
-  font-family: "nirmala";
+  font-family: 'Gideon Roman', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+header .navbar{
+  background-color: var(--colorNavbar);
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+header .navbar ul{
+  display: flex;
+  margin: 10px;
+  width: 60%;
+  justify-content: space-evenly;
+}
+
+header .navbar ul a{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+header .navbar button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--colorLogin);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: none;
+}
+header .navbar button img{
+  width: 30px;
+  height: 30px;
+}
+@media (max-width: 480px){
+  header .navbar ul{width: 80%};
 }
