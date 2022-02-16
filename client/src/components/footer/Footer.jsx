@@ -7,7 +7,8 @@ import youtube from "../../assets/img/youtube.png";
 import adevinta from "../../assets/img/logo-spain-small.png";
 export const Footer = () => {
   return (
-    <footer>
+    
+    <footer id="scroll2footer">
       <div className="footerLogos">
         <div className="footerLogoAdevinta">
           <a href="https://www.adevinta.es/" target="blank">

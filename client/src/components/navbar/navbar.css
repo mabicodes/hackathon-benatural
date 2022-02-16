@@ -67,6 +67,7 @@ header .navbar ul{
 header .navbar ul a{
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
+  cursor: pointer;
 }
 header .navbar button{
   display: flex;
