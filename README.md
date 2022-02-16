@@ -12,6 +12,7 @@
     - 2.  Spring Boot Extension Pack by Pivotal
  
 - - - -
+## GROUP 12 - MEMBERS
 ### UX Design : 
 - Carolina Loaiza (SIMPLON - Colombia)
 - Doraly Santander (SIMPLON - Colombia)
