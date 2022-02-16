@@ -45,7 +45,7 @@ export const Footer = () => {
             Fotocasa
           </a>
           <a href="https://www.habitaclia.com/" target="blank">
-            Habitacha
+            Habitaclia
           </a>
           <a href="https://www.infojobs.net/" target="blank">
             InfoJobs

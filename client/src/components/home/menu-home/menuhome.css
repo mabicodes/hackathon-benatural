@@ -26,9 +26,13 @@
   margin: 5px;
   min-width: 60px;
   padding: 10px;
+  cursor: pointer;
 }
 .menuHome ul button.all {
   background-color: var(--colorButtonMenuAll);
+}
+.menuHome h4 {
+  cursor: default;
 }
 @media (max-width: 480px) {
   .menuHome {

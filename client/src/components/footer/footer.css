@@ -40,6 +40,7 @@ footer .footerComplement {
   justify-content: space-around;
   padding: max(10px, 2vh);
   width: 100vw;
+  cursor: default;
 }
 footer .footerInfoLinks {
   display: flex;
@@ -55,6 +56,7 @@ footer .footerInfo {
   justify-content: center;
   padding: max(10px, 2vh);
   width: 100vw;
+  cursor: default;
 }
 @media (max-width: 480px){
   footer .footerLogos {flex-direction: column; align-items: center;}
