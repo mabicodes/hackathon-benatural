@@ -4,7 +4,7 @@
 ## INSTRUCTIONS : 
 -  React : 
  You'll need _"Node.js"_ to run this project in your computer. 
- 1. open the terminal and write `-cd client` to open de front-end folder and type  :   
+ 1. open the terminal and write `-cd client` to open de front-end folder and install these dependencies  :   
     - `npm install`
     - `npm i react-router-dom@6.2.1`
     - `npm i aos --save`
