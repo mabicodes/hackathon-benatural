@@ -18,11 +18,15 @@ header {
   background-color: var(--colorBackground);
   display: flex;
   flex-direction: column;
+  padding-top: 5vh;
   justify-content: center;
   width: 100%;
 }
 .banner {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vh;
 }
 .banner .logoCompany {
   align-items: center;
