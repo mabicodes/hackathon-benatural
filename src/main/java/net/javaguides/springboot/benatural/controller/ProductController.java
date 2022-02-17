@@ -36,8 +36,7 @@ public class ProductController {
 
     @GetMapping("/product/{id}")
     public ResponseEntity<Product> getProduct(@PathVariable(value = "id") Long id){
-        Product product = this.productRepository.findById(id).orElseThrow(
-            ()-> new ResourceNotFoundException("Product not found"));
+        Product product = this.productRepository.findById(id).orElseThrow(null);
 
         return ResponseEntity.ok().body(product);
     }
@@ -61,8 +60,7 @@ public class ProductController {
 
     @DeleteMapping("product/{id}")
     public ResponseEntity<Void> removeUser(@PathVariable(value = "id") Long id) {
-        Product product = this.productRepository.findById(id).orElseThrow(
-            ()->new NotFoundException("Product not found" + id));
+        Product product = this.productRepository.findById(id).orElseThrow(null);
 
         this.productRepository.delete(product);
         return ResponseEntity.ok().build();
