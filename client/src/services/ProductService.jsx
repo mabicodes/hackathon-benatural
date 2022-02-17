@@ -1,15 +1,10 @@
 import axios from "axios";
 
+const PRODUCTS_REST_API_URL = "http://localhost:8080/api/products";
 
-const ProdcutService = () => {
-  
-    
-        fetch('/users') .then(response => response.json())
-            .then(data => this.setState({users: data}));
-
-
-    return (
-        <div></div>
-    )
+class ProductService {
+    getProducts(){
+        axios.get(PRODUCTS_REST_API_URL);
+    }
 }
-export default new ProdcutService;
+export default new ProductService()

@@ -7,15 +7,16 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
+@CrossOrigin(origins="http://localhost:3000/")
 @RestController
-@CrossOrigin
+@RequestMapping("api")
 public class ProductController {
     @Autowired
     private ProductRepository productRepository;
     public ProductController(ProductRepository productRepository){
         this.productRepository = productRepository;
     }
-    @GetMapping("/product/all")
+    @GetMapping("/products")
     public ResponseEntity<List<Product>> getProducts(){
         return ResponseEntity.ok(
             this.productRepository.findAll()
