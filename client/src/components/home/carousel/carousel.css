@@ -110,6 +110,7 @@
     }
 
     #parra_second{
+      background-repeat: no-repeat;
       width: 80%;
       display: flex;
       flex-direction: column;
@@ -152,14 +153,18 @@ color:#574878;
 font-size: 0.8rem;
 }
 #second_parra{
-  margin-left: 15%;
   margin-right: 0;
-  align-items: right;
-  width: 30%;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  background-color: hsla(0, 7%, 87%, 0.35);
 }
 .image_sitem{
-  width: 60%;
+  width: 90%;
   display: flex;
+  position: relative;
   justify-content:center;}
 
   
