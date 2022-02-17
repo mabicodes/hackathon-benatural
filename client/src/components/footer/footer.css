@@ -68,9 +68,12 @@ footer .footerInfo {
   footer .footerComplement{ flex-direction: column; width: 100%;}
   footer .footerInfoLinks {width: 90vw;}
   footer .footerComplement {flex-direction: column;}
-  footer .footerInfoLinks {width: 90vw;}
-  footer a{ font-size: 0.6rem;}
+  footer .footerInfoLinks {width: 90vw; flex-wrap: wrap; justify-content: space-around;}
+  footer a{ font-size: 0.6rem;margin: 3px;}
   footer{text-align: center;}
+  footer .footerLogos .footerLogoAdevinta img {
+    width: 80%;
+  }
 
 }
 @media (min-width: 481px) and (max-width: 769px) {
