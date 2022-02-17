@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from 'react-scroll';
+import { Link as LinkRoute } from "react-router-dom";
 import "./navbar.css"
 import naturalyLogo from "../../assets/img/leaft.png"
 import login from "../../assets/img/login.png";
@@ -18,7 +19,7 @@ export const Navbar = () => {
       </div>
       <div className="navbar">
         <ul className="navbarUl">
-          <Link to={`/`}>Home</Link>
+          <LinkRoute to={`/product/`}>Home</LinkRoute>
           <Link to={`scroll2products`} smooth={true} offset={-70} duration={600}>Products</Link>
           <Link to={`scroll2footer`} smooth={true} offset={-70} duration={500} >Contact</Link>
         </ul>

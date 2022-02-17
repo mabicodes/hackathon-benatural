@@ -5,6 +5,7 @@ import instagram from "../../assets/img/instagram.png";
 import twitter from "../../assets/img/twitter.png";
 import youtube from "../../assets/img/youtube.png";
 import adevinta from "../../assets/img/logo-spain-small.png";
+
 export const Footer = () => {
   return (
     
