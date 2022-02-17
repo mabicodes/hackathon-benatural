@@ -1,17 +1,18 @@
 .carouselExampleControls{
     height: 100%;
-    width: 100%;
+    width: 100vw;
     display: flex;
    } 
    .carousel-inner {
      height: 100%;
      flex-wrap: nowrap;
-     width: 100%;
-     display: flex;   
+     width: 100vw;
+     display: flex;  
+     align-items: center; 
    }
 #carrusel1{
     background-image: url(../../../assets/img/fondo_.png);
-    min-width: 1220px;
+    min-width: 95%;
     min-height: 376px;
     max-height: 480px;
     background-position: center;
@@ -23,7 +24,7 @@
   #parrafo{
    z-index: 1;
    width: 60%; 
-   height: 40vh; 
+   height: 40%; 
    border: 2px solid #E9B76B;  
    background-color: #17222373;
    border-radius: 15px;
@@ -43,8 +44,8 @@
   }
   #second_item{
     display: flex;
-    min-width: 1210px; 
-    height: 62vh; 
+    min-width: 95%; 
+    height: 60%; 
     flex-direction: row-reverse;
     justify-content: space-between;
     background-color: #c4c4c473;
@@ -55,13 +56,14 @@
       width: 60%;
       display: flex;
       justify-content:flex-end;
+      align-items: center;
    }
   #second_item img{
    width: 70%;
    height: 62vh;
   }
   #second_parra{
-      width: 50%;
+      width: 40%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -98,7 +100,7 @@
 
   #carrusel2{
     background-image: url(../../../assets/img/eternal.png);
-    min-width: 1220px;
+    min-width: 95%;
     min-height: 376px;
     max-height: 376px;
     background-position: center;
@@ -106,6 +108,17 @@
     justify-content: center;
     align-items: center;
     }
+
+    #parra_second{
+      background-repeat: no-repeat;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-left: 10%;
+  }
   .third_title{
       color: var(--colorProductName);
   }
@@ -117,4 +130,50 @@
       text-align: center;
   }
 
- 
+  @media (max-width: 480px){
+    .parra_title{
+      color: #bc8cf7;
+      text-align: center;
+      padding-top: 25px;
+      font-size: 1.2rem;
+  }
+  .parra_par{
+    font-size: 1rem;
+    color: #e0dbdb;
+    text-align: center;
+    padding: 15px;
+}
+.name_seller{
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0%;
+}
+.off_price{
+color:#574878;
+font-size: 0.8rem;
+}
+#second_parra{
+  margin-right: 0;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  background-color: hsla(0, 7%, 87%, 0.35);
+}
+.image_sitem{
+  width: 90%;
+  display: flex;
+  position: relative;
+  justify-content:center;}
+
+  
+  #parra_second{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+  }
