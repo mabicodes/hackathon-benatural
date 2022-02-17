@@ -17,8 +17,7 @@
     - `npm i react-scroll`
     - Axios
       -  `npm install axios`  
-    - React Bootstrap
-      - `npm i react-bootstrap bootstrap@5.1.3 ` 
+    - React Bootstrap (used as Link)
     - then `npm start`
 ### Back-end TECHNOLOGIES:
 - Java (Springbootv2.3.1) v11LTS :
