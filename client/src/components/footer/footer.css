@@ -43,16 +43,26 @@ footer .footerComplement {
   cursor: default;
 }
 footer .footerInfoLinks {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   width: 60vw;
 }
+
+footer .footerComplement .footerInfoAdevinta p{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
 footer .footerInfoLinks a {
+  align-items: center;
+  display: flex;
   color: var(--colorTextWhite);
   text-decoration: none;
 }
 footer .footerInfo {
   display: flex;
+  align-items: center;
   justify-content: center;
   padding: max(15px, 2vh);
   width: 90%;
