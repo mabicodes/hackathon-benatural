@@ -8,8 +8,8 @@ export const Home = () =>  {
     return (
         <div className="home"> 
             <Carousel/>
-            escribe codigo aqui Home
             <MenuHome/>
+            ContainerCartsProduct
         </div>
     )
 }
