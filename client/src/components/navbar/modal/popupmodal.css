@@ -39,7 +39,7 @@
     font-size: 20px;
     border-radius: 50%;
     cursor: pointer;
-    background-color: var(--colorLogin);
+    background-color: #c4c4c45a;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -79,7 +79,7 @@
 .form-login{
     font-family: 'Poppins', sans-serif;
     margin: 10px;
-    background-color:#c4c4c45a;
+    background-color:var(--colorLogin);
     border-style: none;
     color: var(--colorTextBlack);
     width: 80px;
