@@ -20,7 +20,7 @@ function PopupModal(props) {
                         <div className="form-element">
                             <div className="form-label">
                                 <label htmlFor="email" id="l_email">Email</label></div>
-                            <input type="text" id="email" name="email" placeholder="example@benatural.org" autofocus />
+                            <input type="text" id="email" name="email" placeholder="example@benatural.org" autoFocus />
                         </div>
                         <div className="form-element">
                             <div className="form-label">
