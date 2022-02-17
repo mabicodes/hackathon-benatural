@@ -1,8 +1,6 @@
 import React from "react";
 import "./carousel.css";
-import fondo from "../../../assets/img/fondo_.png";
 import image_first from "../../../assets/img/Group 17.png";
-import eternal from "../../../assets/img/eternal.png";
 
 export const Carousel = () => {
   return (
@@ -48,7 +46,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <div id="second_item">
             <div className="image_sitem">
-              <img src={image_first} className="image_first" />
+              <img src={image_first} alt="" className="image_first" />
             </div>
             <div id="second_parra">
               <h1 className="title_seller">Our Best Sellers</h1>

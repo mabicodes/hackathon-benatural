@@ -42,7 +42,7 @@ public class ProductController {
     }
 
     @PutMapping("product/{id}")
-    public Product updateUser(@RequestBody Product newProduct, @PathVariable(value = "id") Long id){
+    public Product updateProduct(@RequestBody Product newProduct, @PathVariable(value = "id") Long id){
         return this.productRepository.findById(id)
             .map(product -> {
                 product.setProductName (newProduct.getProductName());
@@ -59,7 +59,7 @@ public class ProductController {
     }
 
     @DeleteMapping("product/{id}")
-    public ResponseEntity<Void> removeUser(@PathVariable(value = "id") Long id) {
+    public ResponseEntity<Void> removeProduct(@PathVariable(value = "id") Long id) {
         Product product = this.productRepository.findById(id).orElseThrow(null);
 
         this.productRepository.delete(product);

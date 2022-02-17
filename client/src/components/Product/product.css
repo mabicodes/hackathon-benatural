@@ -5,6 +5,7 @@
   height: auto;
   justify-content: space-between;
   width: 90%;
+  margin: 5vh;
 }
 .productCartExplicit .productCartInfo {
   align-items: center;
