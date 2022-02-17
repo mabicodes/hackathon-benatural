@@ -15,12 +15,12 @@ export const Navbar = () => {
       <div className="banner">
         <div className="logoCompany"><img src={naturalyLogo} alt="NaturalyLogo" /></div>
         <div className="nameCompany"><h1 className="nameCompany">Be Natural</h1></div>
-        <div className="sloganCompany"><h3>The best way to fell good</h3></div>
+        <div className="sloganCompany"><h4>The best way to fell good</h4></div>
       </div>
       <div className="navbar">
         <ul className="navbarUl">
           <LinkRoute to={`/product/`}>Home</LinkRoute>
-          <Link to={`scroll2products`} smooth={true} offset={-70} duration={600}>Products</Link>
+          <Link to={`scroll2products`} smooth={true} offset={-70} duration={600}> <LinkRoute to={`/`}>Products</LinkRoute></Link>
           <Link to={`scroll2footer`} smooth={true} offset={-70} duration={500} >Contact</Link>
         </ul>
         <button className="login" onClick={() => setButtonPopup(true)}>
@@ -29,7 +29,7 @@ export const Navbar = () => {
       </div>
       <PopupModal trigger={buttonPopup} setTrigger={setButtonPopup}>
 
-</PopupModal>
+      </PopupModal>
     </header>
   );
 };

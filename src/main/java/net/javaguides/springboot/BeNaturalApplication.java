@@ -3,7 +3,6 @@ package net.javaguides.springboot;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import net.javaguides.springboot.benatural.model.Product;
 import net.javaguides.springboot.benatural.repository.ProductRepository;
 
 @SpringBootApplication

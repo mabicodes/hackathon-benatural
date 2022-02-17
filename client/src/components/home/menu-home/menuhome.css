@@ -6,9 +6,10 @@
   color: var(--colorTextMenu);
   display: flex;
   justify-content: space-around;
-  margin-bottom: 5vh;
+  margin: 5vh;
   padding: 15px;
   width: 90vw;
+  height: 10vh;
 }
 .menuHome ul {
   align-items: center;
@@ -17,6 +18,7 @@
   justify-content: space-around;
   list-style: none;
   width: 80vw;
+  margin-bottom: 0%;
 }
 .menuHome ul button {
   background-color: var(--colorButtonMenu);
@@ -27,6 +29,7 @@
   min-width: 60px;
   padding: 10px;
   cursor: pointer;
+  height: 7vh;
 }
 .menuHome ul button.all {
   background-color: var(--colorButtonMenuAll);

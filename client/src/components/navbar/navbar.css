@@ -21,6 +21,9 @@ header {
   padding-top: 5vh;
   justify-content: center;
   width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0%;
 }
 .banner {
   text-align: center;
@@ -43,14 +46,15 @@ header {
   margin: 0;
   padding: 0;
   cursor: default;
+  font-size: 2rem;
 }
-.banner h3 {
+.banner h4 {
   color: var(--colorTextBlack);
   font-family: 'Gideon Roman', cursive;
   margin: 0;
   padding: 0;
   cursor: default;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 header .navbar{
   background-color: var(--colorNavbar);
@@ -74,6 +78,12 @@ header .navbar ul.navbarUl a{
   }
 header .navbar ul.navbarUl a:hover{
   color: #6D9616;
+}
+header .navbar ul.navbarUl a:link{
+  color: #250055;
+}
+header .navbar ul.navbarUl a:visited{
+  color: #250055;
 }
 header .navbar button{
   display: flex;
