@@ -6,7 +6,7 @@
   color: var(--colorTextMenu);
   display: flex;
   justify-content: space-around;
-  margin-bottom: 5vh;
+  margin: 5vh;
   padding: 15px;
   width: 90vw;
 }
