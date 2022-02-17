@@ -7,10 +7,10 @@ import net.javaguides.springboot.benatural.repository.ProductRepository;
 
 @SpringBootApplication
 public class BeNaturalApplication {
-	public static void main(String[] args) {
-		ConfigurableApplicationContext configurableApplicationContext =
-		SpringApplication.run(BeNaturalApplication.class, args);
-		ProductRepository productRepository =
-		configurableApplicationContext.getBean(ProductRepository.class);
-	}
+    public static void main(String[] args) {
+        ConfigurableApplicationContext configurableApplicationContext =
+        SpringApplication.run(BeNaturalApplication.class, args);
+        ProductRepository productRepository =
+        configurableApplicationContext.getBean(ProductRepository.class);
+    }
 }

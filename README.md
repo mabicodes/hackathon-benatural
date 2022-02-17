@@ -15,14 +15,18 @@
     - `npm i react-router-dom@6.2.1`
     - `npm i aos --save`
     - `npm i react-scroll`
-    - React Bootstrap
-      - `npm i react-bootstrap bootstrap@5.1.3 ` 
+    - Axios
+      -  `npm install axios`  
+    - React Bootstrap (used as Link)
     - then `npm start`
 ### Back-end TECHNOLOGIES:
 - Java (Springbootv2.3.1) v11LTS :
    VSCode Extensions installed :   
     - 1. Extension Pack for Java by Microsoft
     - 2.  Spring Boot Extension Pack by Pivotal
+    - H2 Database Console 
+      - JDBC: `jdbc:h2:file:./data/usersDb` 
+      - USERNAME: `mabiserver`
  
 - - - -
 ## GROUP 12 - MEMBERS
@@ -37,3 +41,4 @@
 ### Full-stack developer:
 - Marvie Nicole Uy (FactoriaF5 #BCNFemTech2021 - Barcelona)
 - Faby Broc (FactoriaF5 #BCNFemTech2022 - Barcelona)
+
