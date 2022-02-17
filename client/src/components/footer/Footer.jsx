@@ -39,7 +39,7 @@ export const Footer = () => {
       </div>
       <div className="footerComplement">
         <div className="footerInfoAdevinta">
-          <p>Be Natural es parte de Adevinta</p>
+          <p>Be Natural es parte de Adevinta junto con:</p>
         </div>
         <div className="footerInfoLinks">
           <a href="https://www.fotocasa.es/es/" target="blank">
