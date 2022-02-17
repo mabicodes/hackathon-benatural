@@ -13,7 +13,7 @@ export const Navbar = () => {
     <header>
       <div className="banner">
         <div className="logoCompany"><img src={naturalyLogo} alt="NaturalyLogo" /></div>
-        <div className="nameCompany"><h1>Be Natural</h1></div>
+        <div className="nameCompany"><h1 className="nameCompany">Be Natural</h1></div>
         <div className="sloganCompany"><h3>The best way to fell good</h3></div>
       </div>
       <div className="navbar">

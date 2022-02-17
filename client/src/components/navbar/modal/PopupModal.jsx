@@ -10,7 +10,7 @@ function PopupModal(props) {
             <div className="popup-inner">
             <div className="banner">
                 <div className="nameCompany"><h1>Be Natural</h1></div>
-                <div className="sloganCompany"><h3>LOGIN</h3></div>
+               
                 <div className="logoCompany"><img src={naturalyLogo} alt="NaturalyLogo" /></div>
             </div>
                 <button className="close-btn" onClick={() => props.setTrigger(false)}> X </button>
@@ -19,12 +19,12 @@ function PopupModal(props) {
                     <div className="form">
                         <div className="form-element">
                             <div className="form-label">
-                                <label htmlFor="email">Email</label></div>
+                                <label htmlFor="email" id="l_email">Email</label></div>
                             <input type="text" id="email" name="email" placeholder="example@benatural.org" autofocus />
                         </div>
                         <div className="form-element">
                             <div className="form-label">
-                                <label htmlFor="password">Password</label></div>
+                                <label htmlFor="password" id="l_pass">Password</label></div>
                             <input type="password" id="password" name="password" placeholder="* * * * *" />
 
                         </div>

@@ -35,6 +35,7 @@ header {
 }
 .banner .logoCompany img {
   width: 30px;
+  transform: rotate(25deg);
 }
 .banner h1 {
   color: var(--colorTextBlack);
