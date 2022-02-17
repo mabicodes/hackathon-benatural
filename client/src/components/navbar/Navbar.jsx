@@ -20,7 +20,7 @@ export const Navbar = () => {
       <div className="navbar">
         <ul className="navbarUl">
           <LinkRoute to={`/product/`}>Home</LinkRoute>
-          <Link to={`scroll2products`} smooth={true} offset={-70} duration={600}>Products</Link>
+          <Link to={`scroll2products`} smooth={true} offset={-70} duration={600}> <LinkRoute to={`/`}>Products</LinkRoute></Link>
           <Link to={`scroll2footer`} smooth={true} offset={-70} duration={500} >Contact</Link>
         </ul>
         <button className="login" onClick={() => setButtonPopup(true)}>

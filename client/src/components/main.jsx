@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 
 export const Main = () =>  {
     return (
-        <div className="container-fluid"> 
+        <div className="container-main"> 
             <Navbar/>
             <Outlet/>
             <Footer/>
