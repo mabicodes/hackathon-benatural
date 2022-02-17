@@ -1,4 +1,5 @@
 package net.javaguides.springboot.benatural.model;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,13 +19,14 @@ public class Product {
     private String productDescription;
     private String productCategory;
     private String productPrice;
+
     public Product(String productName, String productDescription, String productCategory, String productPrice){
         this.productName = productName;
         this.productDescription = productDescription;
         this.productCategory = productCategory;
         this.productPrice = productPrice;
     }
-    public Product(){}
+   
     public Long getId() {return id;}
     public void setId(Long id) {this.id = id;}
      //getters setters de los productos
@@ -52,4 +54,16 @@ public class Product {
     public void setProductPrice(String productPrice){
         this.productPrice = productPrice;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", productName='" + productName + '\'' +
+                ", productDescription='" + productDescription + '\'' +
+                ", productCategory='" + productCategory + '\'' +
+                ", productPrice=" + productPrice  + '\'' +
+                '}';
+    }
+
 }
