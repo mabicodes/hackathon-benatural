@@ -1,22 +1,28 @@
 import React from "react";
 import "./product.css";
-import productImage from "../../assets/img/facial_oil.png";
 
+import { ProductList } from "../../assets/Data/ProductList";
 export const Product = () => {
+  
   return (
     <div className="home">
-      <div className="productCartExplicit">
+      {ProductList.map((e=>
+        <div className="productCartExplicit" key={e.id}>
         <div className="productCartInfo">
-          <div className="productName"><h2>FACIAL OIL RECOVERY SERUM</h2></div>
-          <div className="productCategory"><h3>Product</h3></div>
-          <div className="productDescription"><h4>Our hydrating, nutrient filled Facial Recovery Serum has a light consistency for speedy absorption, and infuses detoxifying Super Green extracts of Kale, Spirulina and Parsley. </h4></div>
-          <div className="productPrice"><h2>20 usd</h2></div>
+          <div className="productName"><h2>{e.name}</h2></div>
+          <div className="productCategory"><h3>{e.category}</h3></div>
+          <div className="productDescription"><h4>{e.description}</h4></div>
+          <div className="productPrice"><h2>{e.price.toLocaleString("en-SP", {
+                  style: "currency",
+                  currency: "EUR",
+                })}</h2></div>
           <div className="productContact"><button>Contact</button></div>
         </div>
         <div className="productCartImage">
-            <img src={productImage} alt="ProductName" />
+            <img src={e.image} alt="ProductName" />
         </div>
       </div>
+      ))}
     </div>
   );
 };
