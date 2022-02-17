@@ -15,6 +15,8 @@
     - `npm i react-router-dom@6.2.1`
     - `npm i aos --save`
     - `npm i react-scroll`
+    - Axios
+      -  `npm install axios`  
     - React Bootstrap
       - `npm i react-bootstrap bootstrap@5.1.3 ` 
     - then `npm start`
