@@ -23,6 +23,9 @@
    VSCode Extensions installed :   
     - 1. Extension Pack for Java by Microsoft
     - 2.  Spring Boot Extension Pack by Pivotal
+    - H2 Database Console 
+      - `spring.datasource.url = jdbc:h2:file:./data/usersDb` 
+      - `spring.datasource.username=mabiserver`
  
 - - - -
 ## GROUP 12 - MEMBERS
