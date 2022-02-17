@@ -12,6 +12,6 @@ public class BeNaturalApplication {
 		ConfigurableApplicationContext configurableApplicationContext =
 		SpringApplication.run(BeNaturalApplication.class, args);
 		ProductRepository productRepository =
-		configurableApplicationContext.getBean(ProductRepository.class)
+		configurableApplicationContext.getBean(ProductRepository.class);
 	}
 }
