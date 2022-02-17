@@ -136,44 +136,44 @@
       text-align: center;
       padding-top: 25px;
       font-size: 1.2rem;
-  }
-  .parra_par{
+    }
+    .parra_par{
+        font-size: 1rem;
+        color: #e0dbdb;
+        text-align: center;
+        padding: 15px;
+    }
+    .name_seller{
+    font-weight: bold;
     font-size: 1rem;
-    color: #e0dbdb;
-    text-align: center;
-    padding: 15px;
-}
-.name_seller{
-  font-weight: bold;
-  font-size: 1rem;
-  margin-bottom: 0%;
-}
-.off_price{
-color:#574878;
-font-size: 0.8rem;
-}
-#second_parra{
-  margin-right: 0;
-  align-items: center;
-  justify-content: center;
-  width: 90%;
-  height: 90%;
-  position: absolute;
-  background-color: hsla(0, 7%, 87%, 0.35);
-}
-.image_sitem{
-  width: 90%;
-  display: flex;
-  position: relative;
-  justify-content:center;}
-
-  
-  #parra_second{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 0%;
+    }
+    .off_price{
+    color:#574878;
+    font-size: 0.8rem;
+    }
+    #second_parra{
+    margin-right: 0;
     align-items: center;
     justify-content: center;
-    margin-left: 10%;
-}
-  }
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    background-color: hsla(0, 7%, 87%, 0.35);
+    }
+    .image_sitem{
+    width: 90%;
+    display: flex;
+    position: relative;
+    justify-content:center;}
+
+    
+    #parra_second{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    }

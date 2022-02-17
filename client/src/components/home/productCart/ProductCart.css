@@ -1,0 +1,39 @@
+.card{
+    width: 20vw;
+   }
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+#icard{
+    width: 100%;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.card-title{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.boder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#star{
+    display: flex;
+    justify-content: center;
+}
+#star img{
+    width: 10%;
+}
+#price{
+    font-size: 1.3rem;
+    margin: 10px;
+}
+#botonplan{
+    background-color: var(--colorButtonMenuAll);
+    border: none;
+    width: 7vw;
+    border-radius: 10px;
+}
