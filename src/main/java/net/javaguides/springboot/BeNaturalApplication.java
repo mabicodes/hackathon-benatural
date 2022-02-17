@@ -6,5 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BeNaturalApplication {
     public static void main(String[] args) {
         SpringApplication.run(BeNaturalApplication.class, args);
+<<<<<<< HEAD
     }
+=======
+       }
+>>>>>>> 6047ca378cd9cd287fee6b02a57508725665fcc5
 }
