@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+const PRODUCTS_REST_API_URL = "http://localhost:8080/api/products";
 
 
 class ProductComponent extends React.Component{
@@ -10,16 +11,18 @@ class ProductComponent extends React.Component{
         }
     }
     componentDidMount(){
-        console.log(axios.get("http://localhost:8080/api/products"))
+        axios.get(PRODUCTS_REST_API_URL).then(resp => {this.setState({products:resp.data})});
     }
     render(){
+
+        console.log(this.state.products)
+
         return(
                 <div>
-                    {
-                        this.state.products.map(
+                    {this.state.products.map(
                             product => 
                             <div key = {product.id}>
-                                <img>{product.productImg}</img>
+                               <img src={product.productImg} alt="hola" />
                             <div className="card-content">
                             <p>{product.id}</p>  
                             <h3>{product.productName}</h3>
