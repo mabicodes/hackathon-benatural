@@ -61,7 +61,7 @@ export const Carousel = () => {
             <div id="parra_second">
               <h1 className="third_title">
                 Try our <span className="yoga">yoga</span> and meditation
-                clases.
+                classes.
               </h1>
               <div id="box_yoga">
                 <h3 className="off_price">Receive 30% off</h3>
