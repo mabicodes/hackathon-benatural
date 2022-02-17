@@ -99,7 +99,7 @@
     }
 
   #carrusel2{
-    background-image: url(../../../assets/img/eternal.png);
+    background-image: url(../../../assets/img/eternals.png);
     min-width: 95%;
     min-height: 376px;
     max-height: 376px;
@@ -176,4 +176,31 @@
         justify-content: center;
         margin-left: 10%;
     }
+    }
+    @media (min-width: 1580px){
+      #carrusel1{
+        min-height: 600px;
+        max-height: 600px;
+       
+      }
+      #second_item{
+        min-width: 95%; 
+        min-height: 600px;
+        max-height: 600px;  
+      }
+      .image_sitem{
+        width: 80%;
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+     }
+    #second_item img{
+     width: 100%;
+     height: 62vh;
+    }
+    #carrusel2{
+      background-repeat: no-repeat;
+      min-height: 600px;
+      max-height: 600px;
+         }
     }
