@@ -19,21 +19,21 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    // lo usaremos pra hacer el catálogo de productos 
     private String productName;
     private String productDescription;
     private String productCategory;
     private String productPrice;
-    public Product(String productName, String productDescription, String productCategory, String productPrice){
+    private String productImg;
+    public Product(String productName, String productDescription, String productCategory, String productPrice, String productImg){
         this.productName = productName;
         this.productDescription = productDescription;
         this.productCategory = productCategory;
         this.productPrice = productPrice;
+        this.productImg = productImg;
     }
     public Product(){}
     public Long getId() {return id;}
     public void setId(Long id) {this.id = id;}
-     //getters setters de los productos
 
     public String getProductName() {
         return productName;
@@ -58,5 +58,11 @@ public class Product {
     }
     public void setProductPrice(String productPrice){
         this.productPrice = productPrice;
+    }
+    public String getProductImg() {
+        return productImg;
+    }
+    public void setProductImg(String productImg) {
+        this.productImg = productImg;
     }
 }
