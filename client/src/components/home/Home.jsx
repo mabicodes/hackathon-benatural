@@ -11,7 +11,6 @@ export const Home = () =>  {
             <Carousel/>
             <MenuHome/>
             <ProductCard/>
-           
         </div>
     )
 }

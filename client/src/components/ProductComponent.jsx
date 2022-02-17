@@ -1,22 +1,42 @@
-import ProductService from "../services/ProductService";
+import React from "react";
+import axios from "axios";
+const PRODUCTS_REST_API_URL = "http://localhost:8080/api/products";
 
-class ProductComponent extends React.Component {
-    constructor(props) {
+
+class ProductComponent extends React.Component{
+    constructor(props){
         super(props)
-        this.state={
-            product: []
+        this.state = {
+            products:[]
         }
-        this.handleAddProduct = this.handleAddProduct.bind(this);
-        this.handleOnChange = this.handleOnChange.bind(this);
     }
-    
     componentDidMount(){
-        fetch('/product') .then(response=> response.json())
-        .then(data => this.setState({product: data}));
-
-        ProductService.getProduct().then((response) => {
-            console.log(response.data)
-            this.setState({product: response.data})
-        });
+        axios.get(PRODUCTS_REST_API_URL).then(resp => {this.setState({products:resp.data})});
     }
+    render(){
+
+        console.log(this.state.products)
+
+        return(
+                <div>
+                    {this.state.products.map(
+                            product => 
+                            <div key = {product.id}>
+                               <img src={product.productImg} alt="hola" />
+                            <div className="card-content">
+                            <p>{product.id}</p>  
+                            <h3>{product.productName}</h3>
+                            <p>{product.productDescription}</p>
+                            </div>
+                            <div className="card-footer">
+                            <p>{product.productCategory}</p>
+                            <p>{product.productPrice}</p>
+                            </div> 
+                            </div>
+                        )}
+                </div>
+        )
+    } 
 }
+    
+export default ProductComponent
