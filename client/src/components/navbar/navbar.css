@@ -59,20 +59,20 @@ header .navbar{
   padding: 5px;
   justify-content: space-around;
 }
-header .navbar ul{
+header .navbar ul.navbarUl{
   display: flex;
   margin: 10px;
   width: 60%;
   justify-content: space-evenly;
   color: #250055;
 }
-header .navbar ul a{
+header .navbar ul.navbarUl a{
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   cursor: pointer;
   transition: all .2s ease-in-out;
   }
-header .navbar ul a:hover{
+header .navbar ul.navbarUl a:hover{
   color: #6D9616;
 }
 header .navbar button{
@@ -99,5 +99,6 @@ header .navbar button img:hover{
   transform: scale(1.1);
 }
 @media (max-width: 480px){
-  header .navbar ul{width: 80%};
+  header .navbar{justify-content: space-between; padding: 2px;}
+  header .navbar ul.navbarUl {width: 80%; margin:0; padding:0};
 }
