@@ -9,13 +9,18 @@ export const MenuHome = () =>  {
     },[]);
 
     return (
-        <div className="menuHome" id="scroll2products"> 
-        <h4>Categories</h4>
-            <ul>
-                <button className="all">All</button>
-                <button>Products</button>
-                <button>Experiences</button>
-            </ul>
+        <div> 
+            <div id="black_hole">black_hole</div>
+            <div className="menuHome" id="scroll2products"> 
+            
+            <h4>Categories</h4>
+                <ul>
+                    <button className="all">All</button>
+                    <button>Products</button>
+                    <button>Experiences</button>
+                </ul>
+            </div>
         </div>
+        
     )
 }
