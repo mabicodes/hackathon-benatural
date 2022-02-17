@@ -62,7 +62,7 @@ public class ProductController {
     @DeleteMapping("product/{id}")
     public ResponseEntity<Void> removeUser(@PathVariable(value = "id") Long id) {
         Product product = this.productRepository.findById(id).orElseThrow(
-            ()->new ResourceNotFoundException("User not found"+ id));
+            ()->new NotFoundException("Product not found" + id));
 
         this.productRepository.delete(product);
         return ResponseEntity.ok().build();
