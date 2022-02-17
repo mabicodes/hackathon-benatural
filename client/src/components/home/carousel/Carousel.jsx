@@ -1,6 +1,8 @@
 import React from "react";
 import "./carousel.css";
 import fondo from "../../../assets/img/fondo_.png"
+import image_first from "../../../assets/img/Group 17.png"
+import eternal from "../../../assets/img/eternal.png"
 
 export const Carousel = () =>  {
     return (
@@ -13,14 +15,36 @@ export const Carousel = () =>  {
         <div class="carousel-inner">
           <div class="carousel-item active">
           <div id="carrusel1">
-            <h1 id="parrafo" alt="..." >hola mundo</h1>
+            <div id="parrafo">
+                <h1 className="parra_title">BE A SUPER GREEN HUMAN BEAN</h1>
+                <p className="parra_par">Enter the world of wellnes and Superfood benefits with our Greens Range products, and yoga practices.</p>
+            </div>
           </div>
           </div>
           <div class="carousel-item">
-            <img src={fondo} class="d-block w-100" alt="..."/>
+          <div id="second_item">
+                <div className="image_sitem">
+                    <img src={image_first} className="image_first"/>
+                </div>
+                <div id="second_parra">
+                    <h1 className="title_seller">Our Best Sellers</h1>
+                    <p className="name_seller">Facial recovery oil serum</p>
+                    <h3 className="off_price">Receive 30% off</h3>
+                    <button id="carru_btn">Watch More</button>
+                </div>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src={fondo} class="d-block w-100" alt="..."/>
+          <div id="carrusel2">
+            <div id="parrafo_second">
+                <h1 className="third_title">Try our <span className="yoga">yoga</span> and meditation clases.</h1>
+               <div id="box_yoga">
+               <h3 className="off_price">Receive 30% off</h3>
+                <button id="carru_btn">Watch More</button>
+               </div>
+               
+            </div>
+          </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
