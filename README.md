@@ -1,7 +1,9 @@
 # HACKATHON 2022 - GROUP 12
  _A marketplace mock-up page for FactoriaF5 and AdevintaSpain_ 
 - - - -
-## INSTRUCTIONS : 
+## TECHNOLOGIES USED :
+- Figma (UX Design) :
+    - (Click here to open the Link)[https://www.figma.com/file/pENNcuM5FWjmTFRUWvjRbN/BeNatural?node-id=0%3A1]
 -  React : 
  You'll need _"Node.js"_ to run this project in your computer. 
  1. open the terminal and write `-cd client` to open de front-end folder and install these dependencies  :   
