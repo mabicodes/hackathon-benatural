@@ -23,11 +23,11 @@
     - React Bootstrap (used as Link)
     - then `npm start`
 ### Back-end TECHNOLOGIES:
-- Java@v11LTS (Springboot@v2.3.1):
-   VSCode Extensions installed :   
-    - 1. Extension Pack for Java by Microsoft
-    - 2.  Spring Boot Extension Pack by Pivotal
-    - H2 Database Console - SQL
+   - Java@v11LTS (Springboot@v2.3.1):
+   - 1. VSCODE Extensions Installed :: 
+      -  Extension Pack for Java by Microsoft
+   - 2.  VSCODE Extensions Spring Boot Extension Pack by Pivotal
+   - H2 Database Console - SQL
       - JDBC: `jdbc:h2:file:./data/usersDb` 
       - USERNAME: `mabiserver`
     - 🚧🔜 Heroku (free hosting) 
