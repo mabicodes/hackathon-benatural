@@ -57,3 +57,4 @@
        -   _(UX Design)_
 - José Barón 
     - _(FactoriaF5 - Bilbao)_
+       -  _José was busy due to parenthood but tried his best to find time and learn new technologies with us._
