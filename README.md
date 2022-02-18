@@ -1,4 +1,4 @@
-# HACKATHON 2022 - GROUP 12 
+# HACKATHON 2022 - "Be Natural🍃" 
  _A marketplace mock-up page for FactoriaF5 and AdevintaSpain_ 
  
 - - - -
@@ -30,13 +30,13 @@
     - H2 Database Console - SQL
       - JDBC: `jdbc:h2:file:./data/usersDb` 
       - USERNAME: `mabiserver`
-    - 🚧_(in process)_ Heroku (free hosting) 
+    - 🚧🔜 Heroku (free hosting) 
     
  > ⚠️ _"To get the Application running you'll need to run the frontend, backend and the table in h2-console server at the same time."_
  
 - - - -
 
-## GROUP 12 - MEMBERS
+## Be Natural🍃- GROUP 12 - MEMBERS
 - Carolina Loaiza @[carolo180](https://github.com/carolo180)
     -  _(SIMPLON - Colombia)_
        -  _(UX Design|Front-end)_
