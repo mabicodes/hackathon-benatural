@@ -27,7 +27,7 @@
     - H2 Database Console - SQL
       - JDBC: `jdbc:h2:file:./data/usersDb` 
       - USERNAME: `mabiserver`
- 
+ > _"Please note that to get the Application running you'll need to run the frontend, backend and server at the same time."_
 - - - -
 ## GROUP 12 - MEMBERS
 - Carolina Loaiza (SIMPLON - Colombia)
