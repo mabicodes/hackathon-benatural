@@ -23,7 +23,7 @@
     - React Bootstrap (used as Link)
     - then `npm start`
 ### Back-end TECHNOLOGIES:
-- Java (Springbootv2.3.1) v11LTS :
+- Java@v11LTS (Springboot@v2.3.1):
    VSCode Extensions installed :   
     - 1. Extension Pack for Java by Microsoft
     - 2.  Spring Boot Extension Pack by Pivotal
