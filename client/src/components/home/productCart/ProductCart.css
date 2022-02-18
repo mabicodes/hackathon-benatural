@@ -50,6 +50,14 @@
   border: none;
   width: 10vw;
 }
+#botonplan a {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+#botonplan a:hover{
+  color: black;
+}
 .containerCards {
   align-items: center;
   display: flex;

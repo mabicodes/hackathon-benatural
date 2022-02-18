@@ -50,8 +50,7 @@
 }
 @media (min-width: 1580px){
   .menuHome {
-    flex-direction: column;
-    height: 5vh;
+    flex-direction: row;
   }
   .menuHome ul {
     height: 15vh;
