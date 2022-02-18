@@ -37,23 +37,23 @@
 - - - -
 
 ## GROUP 12 - MEMBERS
-- Carolina Loaiza
+- Carolina Loaiza @[carolo180](https://github.com/carolo180)
     -  _(SIMPLON - Colombia)_
     -  _(UX Design|Front-end)_
-- Doraly Santander 
-    -  _(SIMPLON - Colombia)_
-    -  _(UX Design|Front-end)_
-- Marvie Nicole Uy  
+- Marvie Nicole Uy  @[marvienicole](https://github.com/marvienicole)
    -  _(FactoriaF5  - Barcelona)_
    -  _(Front-end|Back-end)_
-- Miguel Moreno 
+- Miguel Moreno @[Miguel-Lopez-97](https://github.com/Miguel-Lopez-97)
    -  _(SIMPLON - Colombia)_
    -   _(UX Design|Front-end)_
-- Faby Broc 
+- Faby Broc @[FabyBroc](https://github.com/FabyBroc)
     -  _(FactoriaF5 - Barcelona)_
     -  _(Back-end)_
-- Omar Hevia 
+- Omar Hevia @[UxerDevCoding](https://github.com/UxerDevCoding)
     - _(FactoriaF5 - Asturías)_
     - _(Back-end)_
-- José Barón
+ - Doraly Santander 
+    -  _(SIMPLON - Colombia)_
+    -  _(UX Design)_
+- José Barón 
     - _(FactoriaF5 - Bilbao)_
