@@ -7,10 +7,11 @@
 - Discord and Zoom (communication)
 - Github pages (workplace repository)
 - Trello (our team's Kanban board)
+
+ > ⚠️ _"To get the Application running you'll need to run the frontend, backend and the table in h2-console server at the same time."_
 ### Front-end TECHNOLOGIES:
 -  React : 
  > ⚠️ _You'll need _"Node.js"_ to run this project in your computer._ 
-> ⚠️ _"To get the Application running you'll need to run the frontend, backend and the table in h2-console server at the same time."_
  1. open the terminal and write `-cd client` to open de front-end folder and install these dependencies  :   
     - `npm install`
     - `npm i react-router-dom@6.2.1`
