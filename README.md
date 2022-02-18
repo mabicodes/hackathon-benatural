@@ -31,19 +31,19 @@
  > _"Please note that to get the Application running you'll need to run the frontend, backend and server at the same time."_
 - - - -
 ## GROUP 12 - MEMBERS
-- Carolina Loaiza (SIMPLON - Colombia)
-- Doraly Santander (SIMPLON - Colombia)
-- Faby Broc (FactoriaF5 #BCNFemTech2022 - Barcelona)
-- José Barón (FactoriaF5 - Bilbao)
-- Marvie Nicole Uy (FactoriaF5 #BCNFemTech2021 - Barcelona)
-- Miguel Moreno (SIMPLON - Colombia)
-- Omar Hevia (FactoriaF5 - Asturías)
+- Carolina Loaiza _(SIMPLON - Colombia)_
+- Doraly Santander _(SIMPLON - Colombia)_
+- Faby Broc _(FactoriaF5 - Barcelona)_
+- José Barón _(FactoriaF5 - Bilbao)_
+- Marvie Nicole Uy _(FactoriaF5  - Barcelona)_
+- Miguel Moreno _(SIMPLON - Colombia)_
+- Omar Hevia _(FactoriaF5 - Asturías)_
 
 ## CONTRIBUTION: 
-- Carolina Loaiza (UX Design|Front-end)
-- Doraly Santander (UX Design|Front-end)
-- Faby Broc (Back-end)
-- Marvie Nicole Uy (Front-end|Back-end)
-- Miguel Moreno (UX Design|Front-end)
-- Omar Hevia (Back-end)
+- Carolina Loaiza _(UX Design|Front-end)_
+- Doraly Santander _(UX Design|Front-end)_
+- Faby Broc _(Back-end)_
+- Marvie Nicole Uy _(Front-end|Back-end)_
+- Miguel Moreno _(UX Design|Front-end)_
+- Omar Hevia _(Back-end)_
 
