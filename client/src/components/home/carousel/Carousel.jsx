@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./carousel.css";
 import image_first from "../../../assets/img/Group 17.png";
 
@@ -52,7 +53,7 @@ export const Carousel = () => {
               <h1 className="title_seller">Our Best Sellers</h1>
               <p className="name_seller">Facial recovery oil serum</p>
               <h3 className="off_price">Receive 30% off</h3>
-              <button id="carru_btn">Watch More</button>
+              <button id="carru_btn"><Link to={'/product/1'}>Watch More</Link></button>
             </div>
           </div>
         </div>
@@ -65,7 +66,7 @@ export const Carousel = () => {
               </h1>
               <div id="box_yoga">
                 <h3 className="off_price">Receive 30% off</h3>
-                <button id="carru_btn">Watch More</button>
+                <button id="carru_btn"><Link to={'/product/11'}>Watch More</Link></button>
               </div>
             </div>
           </div>

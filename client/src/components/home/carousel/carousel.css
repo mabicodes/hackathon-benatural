@@ -92,6 +92,14 @@
     color: white;
     font-weight: bold;
   }
+  #carru_btn a{
+    color: white;
+    text-decoration: none;
+  }
+  #carru_btn a:hover{
+    color: var(--colorButtonMenuAll);
+    text-decoration: none;
+  }
   #carru_btn:hover{
     background-color: white;
     border: 2px solid var(--colorButtonMenuAll);
