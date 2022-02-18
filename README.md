@@ -1,4 +1,4 @@
-# HACKATHON 2022 - GROUP 12
+# HACKATHON 2022 - GROUP 12 
  _A marketplace mock-up page for FactoriaF5 and AdevintaSpain_ 
 - - - -
 ## TECHNOLOGIES USED :
@@ -9,7 +9,8 @@
 - Trello (our team's Kanban board)
 ### Front-end TECHNOLOGIES:
 -  React : 
- You'll need _"Node.js"_ to run this project in your computer. 
+ > ⚠️ _You'll need _"Node.js"_ to run this project in your computer._ 
+> ⚠️ _"To get the Application running you'll need to run the frontend, backend and the table in h2-console server at the same time."_
  1. open the terminal and write `-cd client` to open de front-end folder and install these dependencies  :   
     - `npm install`
     - `npm i react-router-dom@6.2.1`
@@ -27,23 +28,26 @@
     - H2 Database Console - SQL
       - JDBC: `jdbc:h2:file:./data/usersDb` 
       - USERNAME: `mabiserver`
-    - _(in process)_ Heroku (free hosting) 
- > _"Please note that to get the Application running you'll need to run the frontend, backend and server at the same time."_
+    - 🚧_(in process)_ Heroku (free hosting) 
 - - - -
 ## GROUP 12 - MEMBERS
-- Carolina Loaiza _(SIMPLON - Colombia)_
-- Doraly Santander _(SIMPLON - Colombia)_
-- Faby Broc _(FactoriaF5 - Barcelona)_
-- José Barón _(FactoriaF5 - Bilbao)_
-- Marvie Nicole Uy _(FactoriaF5  - Barcelona)_
-- Miguel Moreno _(SIMPLON - Colombia)_
-- Omar Hevia _(FactoriaF5 - Asturías)_
-
-## CONTRIBUTION: 
-- Carolina Loaiza _(UX Design|Front-end)_
-- Doraly Santander _(UX Design|Front-end)_
-- Faby Broc _(Back-end)_
-- Marvie Nicole Uy _(Front-end|Back-end)_
-- Miguel Moreno _(UX Design|Front-end)_
-- Omar Hevia _(Back-end)_
-
+- Carolina Loaiza
+    -  _(SIMPLON - Colombia)_
+    -  _(UX Design|Front-end)_
+- Doraly Santander 
+    -  _(SIMPLON - Colombia)_
+    -  _(UX Design|Front-end)_
+- Marvie Nicole Uy  
+   -  _(FactoriaF5  - Barcelona)_
+   -  _(Front-end|Back-end)_
+- Miguel Moreno 
+   -  _(SIMPLON - Colombia)_
+   -   _(UX Design|Front-end)_
+- Faby Broc 
+    -  _(FactoriaF5 - Barcelona)_
+    -  _(Back-end)_
+- Omar Hevia 
+    - _(FactoriaF5 - Asturías)_
+    - _(Back-end)_
+- José Barón
+    - _(FactoriaF5 - Bilbao)_
