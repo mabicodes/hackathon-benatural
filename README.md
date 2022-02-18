@@ -52,7 +52,7 @@
 - Omar Hevia @[UxerDevCoding](https://github.com/UxerDevCoding)
     - _(FactoriaF5 - Asturías)_
     - _(Back-end)_
- - Doraly Santander 
+ - Doraly Santander @[doralysantander](https://github.com/doralysantander)
     -  _(SIMPLON - Colombia)_
     -  _(UX Design)_
 - José Barón 
