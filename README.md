@@ -1,5 +1,5 @@
-# HACKATHON 2022 - "Be Natural🍃" 
- _A marketplace mock-up page for FactoriaF5 and AdevintaSpain_ 
+# "Be Natural🍃" 
+ HACKATHON 2022 : A marketplace mock-up page for _FactoriaF5_ and _Adevinta Spain_
  
 - - - -
 
