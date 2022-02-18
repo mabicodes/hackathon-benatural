@@ -53,7 +53,10 @@
     flex-direction: column;
     height: 5vh;
   }
+  .menuHome ul {
+    height: 15vh;
+ }
   .menuHome ul button {
-     height: 2vh;
+     height: 4vh;
   }
 }
