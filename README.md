@@ -1,6 +1,8 @@
 # HACKATHON 2022 - GROUP 12 
  _A marketplace mock-up page for FactoriaF5 and AdevintaSpain_ 
+ 
 - - - -
+
 ## TECHNOLOGIES USED :
 - Figma (UX Design) :
     - [Click here to open the link](https://www.figma.com/file/pENNcuM5FWjmTFRUWvjRbN/BeNatural?node-id=0%3A1)
@@ -8,7 +10,6 @@
 - Github pages (workplace repository)
 - Trello (our team's Kanban board)
 
- > ⚠️ _"To get the Application running you'll need to run the frontend, backend and the table in h2-console server at the same time."_
 ### Front-end TECHNOLOGIES:
 -  React : 
  > ⚠️ _You'll need _"Node.js"_ to run this project in your computer._ 
@@ -30,7 +31,11 @@
       - JDBC: `jdbc:h2:file:./data/usersDb` 
       - USERNAME: `mabiserver`
     - 🚧_(in process)_ Heroku (free hosting) 
+    
+ > ⚠️ _"To get the Application running you'll need to run the frontend, backend and the table in h2-console server at the same time."_
+ 
 - - - -
+
 ## GROUP 12 - MEMBERS
 - Carolina Loaiza
     -  _(SIMPLON - Colombia)_
