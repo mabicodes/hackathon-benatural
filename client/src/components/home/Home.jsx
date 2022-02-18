@@ -1,6 +1,6 @@
 import React from "react";
 import { MenuHome } from "./menu-home/MenuHome";
-import {ProductCard} from "./productCart/ProductCart";
+import ProductComponent from "./productCart/ProductComponent";
 import { Carousel } from "./carousel/Carousel";
 import "./home.css"
 
@@ -10,7 +10,7 @@ export const Home = () =>  {
         <div className="home"> 
             <Carousel/>
             <MenuHome/>
-            <ProductCard/>
+            <ProductComponent/>
         </div>
     )
 }

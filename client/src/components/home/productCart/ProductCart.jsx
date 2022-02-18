@@ -1,18 +1,19 @@
-import react from "react"
+import React from "react";
+import { Link } from "react-router-dom";
 import "./ProductCart.css"
-import card from "../../../assets/img/imagecard.png"
 import star from "../../../assets/img/star-solid.svg"
 import halfstar from "../../../assets/img/star-half-stroke-solid.svg"
 
 
-export const ProductCard = () =>  {
+export const ProductCard = (props) =>  {
+    const {id, data}=props;
+    let {productName, productPrice, productImg}=data;
     return (
-        <div className="cards_product"> 
             <div className="card">
-               <img src={card} id="icard"/>
+               <img src={productImg} id="icard"/>
                 <div className="card-body">
                     <div id="boder">
-                     <h3 className="card-title"> Facial Oil Recovery Serum </h3>
+                     <h3 className="card-title"> {productName} </h3>
                      <div id="star">
                         <img src={star} alt=""/>
                         <img src={star} alt="" />
@@ -22,11 +23,13 @@ export const ProductCard = () =>  {
                      </div>
                      
                     </div>
-                     <h5 id="price">20 usd</h5>
-                    <button id="botonplan">Join Now</button>
+                     <h5 id="price">{parseInt(productPrice).toLocaleString("en-SP", {
+                  style: "currency",
+                  currency: "EUR",
+                })}</h5>
+                     <button id="botonplan"><Link to={'/product/'+ id}>Join Now</Link></button>
                </div>
            </div>
-       </div>
            
         
     )

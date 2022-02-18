@@ -1,6 +1,6 @@
 #white_hole{
     min-height: 20vh;
-    color: white;
+    color: transparent;
 }
 #formu_contacto, .feedback{
     max-width: 100%;
