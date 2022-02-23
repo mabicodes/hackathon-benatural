@@ -5,7 +5,7 @@
 
 ## TECHNOLOGIES USED :
 - Figma (UX Design) :
-    - [Click here to open the link](https://www.figma.com/file/pENNcuM5FWjmTFRUWvjRbN/BeNatural?node-id=0%3A1)
+    - [Click here to open the source](https://www.figma.com/file/pENNcuM5FWjmTFRUWvjRbN/BeNatural?node-id=0%3A1)
 - Discord and Zoom (communication)
 - Github pages (workplace repository)
 - Trello (our team's Kanban board)
