@@ -9,7 +9,7 @@ export const ProductCard = (props) =>  {
     const {id, data}=props;
     let {productName, productPrice, productImg}=data;
     return (
-            <div className="card">
+            <div className="card" data-aos="fade-up">
                <img src={productImg} id="icard"/>
                 <div className="card-body">
                     <div id="boder">
